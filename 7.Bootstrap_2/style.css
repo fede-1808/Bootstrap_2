@@ -2,10 +2,6 @@ header {
     width: 100%;
 }
 
-nav {
-    align-content: center;
-}
-
 h1 {
     margin-top: 50px;
     text-align: center;
@@ -76,6 +72,9 @@ margin-top: 10px;
 margin-bottom: 10px;
 }
 
+.social {
+    display: inline;
+}
 .form {
   display: flex;
   justify-content: center;

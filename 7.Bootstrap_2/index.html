@@ -1,170 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cinema e Chiacchiere</title>
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cinema e Chiacchiere</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <!-- Navbar Bootstrap -->
-    <nav class="navbar navbar-expand-lg fixed-top bg-secondary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="./Media/Icona Logo.png" alt="Logo" class="logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav mx-auto">
-                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                    <a class="nav-link" href="#">ULTIME USCITE</a>
-                    <a class="nav-link" href="#">PROSSIME USCITE</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <!-- Fine Navbar Bootstrap -->
-    
-    <header>
-        <h1 class="text-danger">Cinema e Chiacchiere</h1>
-    </header>
-    
-    <h2 class="text-warning">ULTIME RECENSIONI</h2>
-       
+  
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top bg-secondary">
     <div class="container-fluid">
-        <div class="row">
-
-            <!-- Prima Card -->
-            <div class="col-4 articoli">
-                <div class="card1 text-center mb-3" style="width: 18rem;">
-                    <a href="https://www.rottentomatoes.com"> <img src="./Media/Il silenzio degli innocenti.jpg" class="card-img-top" alt="Il Silenzio degli Innocenti"></a>
-                    <div class="card-body">
-                        <h4 class="card-title">Il Silenzio degli Innocenti</h4>
-                        <p class="card-text">Il silenzio degli innocenti segue l'agente speciale in addestramento dell'FBI, Clarice Starling, che viene incaricata di intervistare l'ex psichiatra e serial killer cannibale, il dottor Hannibal Lecter. L'obiettivo è ottenere il suo aiuto per catturare un altro serial killer, noto come "Buffalo Bill". L'agente Starling e il dottor Lecter stringono una collaborazione.</p>
-                        <a href="https://www.youtube.com/watch?v=8BFJZCwhY3I" class="btn btn-primary">Trailer</a>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Seconda Card -->
-            <div class="col-4 articoli">
-                <div class="card1 text-center mb-3" style="width: 18rem;">
-                    <a href="https://www.rottentomatoes.com"><img src="./Media/La Maschera di Zorro.jpg" class="card-img-top" alt="La Maschera di Zorro"></a>
-                    <div class="card-body">
-                        <h4 class="card-title">La Maschera di Zorro</h4>
-                        <p class="card-text">Dopo vent'anni passati a combattere l'oppressione spagnola in California, il leggendario Zorro, alter ego di Don Diego de la Vega (interpretato da Anthony Hopkins), viene sconfitto e incarcerato dal suo nemico giurato, il governatore Rafael Montero. Montero gli porta via la figlia Elena, che cresce convinta che lui sia suo padre.</p>
-                        <a href="https://www.youtube.com/watch?v=40n2wwBRA-A" class="btn btn-primary">Trailer</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Terza Card -->
- <div class="col-4 articoli">
-                <div class="card1 text-center mb-3" style="width: 18rem;">
-                    <a href="https://www.rottentomatoes.com"><img src="./Media/La Mummia.jpg" class="card-img-top" alt="La Mummia"></a>
-                    <div class="card-body">
-                        <h4 class="card-title">La Mummia</h4>
-                        <p class="card-text">Nell'antico Egitto, il sommo sacerdote Imhotep ha una relazione segreta con Anck-su-namun, la favorita del faraone. Scoperti, i due uccidono il faraone, ma Anck-su-namun si suicida per permettere a Imhotep di fuggire. Imhotep tenta di resuscitarla, ma viene catturato e condannato alla peggiore delle maledizioni, l'Hom-Dai.</p>
-                        <a href="https://www.youtube.com/watch?v=JwM5mrvcdfg" class="btn btn-primary">Trailer</a>
-                    </div>
-                </div>
-            </div>
+      <a class="navbar-brand" href="#"><img src="./Media/Icona Logo.png" alt="Logo" class="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mx-auto">
+          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          <a class="nav-link" href="#">ULTIME USCITE</a>
+          <a class="nav-link" href="#">PROSSIME USCITE</a>
         </div>
+      </div>
     </div>
-
-    <!-- Carousel -->
-<div class="container text-center">
+  </nav>
+  
+  <header>
+    <h1 class="text-danger">Cinema e Chiacchiere</h1>
+  </header>
+  
+ 
+  
+  <!-- Card -->
+  <div class="container-fluid">
+    <h2 class="text-warning">ULTIME RECENSIONI</h2>
+    <div class="row">
+      
+      <!-- Prima Card -->
+      <div class="col-12 col-lg-4 articoli">
+        <div class="card1 text-center mb-3" style="width: 18rem;">
+          <a href="https://www.rottentomatoes.com"> <img src="./Media/Il silenzio degli innocenti.jpg" class="card-img-top" alt="Il Silenzio degli Innocenti"></a>
+          <div class="card-body">
+            <h4 class="card-title">Il Silenzio degli Innocenti</h4>
+            <p class="card-text">Il silenzio degli innocenti segue l'agente speciale in addestramento dell'FBI, Clarice Starling, che viene incaricata di intervistare l'ex psichiatra e serial killer cannibale, il dottor Hannibal Lecter. L'obiettivo è ottenere il suo aiuto per catturare un altro serial killer, noto come "Buffalo Bill". L'agente Starling e il dottor Lecter stringono una collaborazione.</p>
+            <a href="https://www.youtube.com/watch?v=8BFJZCwhY3I" class="btn btn-primary">Trailer</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Seconda Card -->
+      <div class="col-12 col-lg-4 articoli">
+        <div class="card1 text-center mb-3" style="width: 18rem;">
+          <a href="https://www.rottentomatoes.com"><img src="./Media/La Maschera di Zorro.jpg" class="card-img-top" alt="La Maschera di Zorro"></a>
+          <div class="card-body">
+            <h4 class="card-title">La Maschera di Zorro</h4>
+            <p class="card-text">Dopo vent'anni passati a combattere l'oppressione spagnola in California, il leggendario Zorro, alter ego di Don Diego de la Vega (interpretato da Anthony Hopkins), viene sconfitto e incarcerato dal suo nemico giurato, il governatore Rafael Montero. Montero gli porta via la figlia Elena, che cresce convinta che lui sia suo padre.</p>
+            <a href="https://www.youtube.com/watch?v=40n2wwBRA-A" class="btn btn-primary">Trailer</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Terza Card -->
+      <div class="col-12 col-lg-4 articoli">
+        <div class="card1 text-center mb-3" style="width: 18rem;">
+          <a href="https://www.rottentomatoes.com"><img src="./Media/La Mummia.jpg" class="card-img-top" alt="La Mummia"></a>
+          <div class="card-body">
+            <h4 class="card-title">La Mummia</h4>
+            <p class="card-text">Nell'antico Egitto, il sommo sacerdote Imhotep ha una relazione segreta con Anck-su-namun, la favorita del faraone. Scoperti, i due uccidono il faraone, ma Anck-su-namun si suicida per permettere a Imhotep di fuggire. Imhotep tenta di resuscitarla, ma viene catturato e condannato alla peggiore delle maledizioni, l'Hom-Dai.</p>
+            <a href="https://www.youtube.com/watch?v=JwM5mrvcdfg" class="btn btn-primary">Trailer</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Carousel -->
+  <div class="container text-center">
     <div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./Media/Carousel1.jpg" class="d-block w-75 mx-auto" alt="Dr Lecter">
-    </div>
-    <div class="carousel-item">
-      <img src="./Media/Carousel2.jpg" class="d-block w-75 mx-auto"" alt="Zorro">
-    </div>
-    <div class="carousel-item">
-      <img src="./Media/Carousel3.jpg" class="d-block w-75 mx-auto"" alt="La Mummia">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</div>   
-    
-    <!-- Form Lavora con noi -->
-    <h3 class="text-info">Lavora con noi</h3>
-    <div class="form">
-        <input type="email" placeholder="Email">
-        <input type="password" placeholder="Password">
-        <input type="button" value="Invia">
-    </div>
-
-
-    <!-- FAQ -->
-
-    <div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Come posso iscrivermi alla Newsletters?
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>Certo è possibile.</strong> Potete iscrivervi alla newsletters compilando il form o inviando un email a ciaociao@ciao.com
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Ci saranno live dove guardare film insieme?
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>Possiamo organizzarle!</strong> Se siete interessati a questo format potete contattarci sui nostri social o seguire le pagine per aggiornamenti in merito.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Come posso contattarvi?
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>Potete contattarci sui nostri social.</strong> Scriveteci un messaggio privato sui vari social e saremo a vostra disposizione per qualsiasi informazione è chiarimento.
-    </div>
-  </div>
-</div>
-    
-    <!-- Footer -->
-    <footer class="bg-secondary d-flex justify-content-center">
-        <div class="align-items-center">
-            <p>Il sito è di proprietà della FDG Srl con Partita Iva 01234567899</p>
-            <a href="https://www.facebook.com/"><img src="./Media/facebook.svg" alt="facebook"></a>
-            <a href="https://www.instagram.com/"><img src="./Media/instagram.svg" alt="instagram"></a>
-            <a href="https://www.tiktok.com/"><img src="./Media/tiktok.svg" alt="Tiktok"></a>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./Media/Carousel1.jpg" class="d-block w-100 mx-auto" alt="Dr Lecter">
         </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <div class="carousel-item">
+          <img src="./Media/Carousel2.jpg" class="d-block w-100 mx-auto"" alt="Zorro">
+        </div>
+        <div class="carousel-item">
+          <img src="./Media/Carousel3.jpg" class="d-block w-100 mx-auto"" alt="La Mummia">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>   
+  
+  <!-- Form Lavora con noi -->
+  <h3 class="text-info">Lavora con noi</h3>
+  <div class="container">
+    <div class="row">
+      <div class="form col-12 mb-2">
+        <input type="email" placeholder="Email">
+      </div>
+      <div class="form col-12 mb-2">
+        <input type="password" placeholder="Password">
+      </div>
+      <div class="form col-12">
+        <input type="button" value="Invia">
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- FAQ -->
+  <h3 class="text-info">FAQ</h3>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Posso iscrivermi alla Newsletters?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Certo è possibile.</strong> Basta compilare il form o inviare un email a ciaociao@ciao.com
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Ci saranno live dove guardare film insieme?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Possiamo organizzarle!</strong> Se siete interessati a questo format potete contattarci sui nostri social o seguire le pagine per aggiornamenti in merito.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Come posso contattarvi?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Potete contattarci sui nostri social.</strong> Scriveteci un messaggio privato sui vari social e saremo a vostra disposizione per qualsiasi informazione è chiarimento.
+        </div>
+      </div>
+    </div>
+  </div>  
+  
+  <!-- Footer -->
+  <footer class="bg-secondary d-flex justify-content-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 align-items-center">
+          <p>Il sito è di proprietà della FDG Srl con Partita Iva 01234567899</p>
+        </div>
+        <div class="col-12 align-items-center">
+          <a href="https://www.facebook.com/"><img src="./Media/facebook.svg" alt="facebook"></a>
+          <a href="https://www.instagram.com/"><img src="./Media/instagram.svg" alt="instagram"></a>
+          <a href="https://www.tiktok.com/"><img src="./Media/tiktok.svg" alt="Tiktok"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
